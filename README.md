@@ -76,14 +76,5 @@ Edite os componentes em `components/` para personalizar:
 - Textos e conteúdos nos componentes
 - Animações no Framer Motion
 
-## 📦 Deploy
 
-Recomendado: [Vercel](https://vercel.com)
 
-```bash
-# Deploy automático conectando o repositório Git
-```
-
-## 📄 Licença
-
-MIT
