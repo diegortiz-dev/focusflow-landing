@@ -12,15 +12,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "FocusFlow - Aumente sua Produtividade",
-  description: "A ferramenta definitiva para gerenciar seu tempo com a técnica Pomodoro. Aumente sua produtividade e alcance seus objetivos.",
+  title: "FocusFlow - Maximize Sua Produtividade com Técnica Pomodoro",
+  description: "Plataforma profissional de gestão de tempo e produtividade. Técnica Pomodoro avançada, analytics em tempo real e foco absoluto.",
+  keywords: "pomodoro, produtividade, gestão de tempo, foco, timer",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
         {children}
       </body>
